@@ -1,0 +1,437 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\title{Stat3000 Normal Distribution Pt2}
+\author{Rylei Mindrum | A02352206}
+\date{October 2024}
+\begin{document}
+\maketitle
+\section{Introduction}
+\begin{enumerate}
+    \item 5.1.3 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $z=\frac{(10.34-10)}{\sqrt{2}} = \frac{.34}{1.414} = .2403$ \\
+                $\phi(.2403) = .5950$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $z = \frac{(11.98-10)}{\sqrt{2}} = \frac{1.98}{1.414} = 1.4$ \\
+                $\phi(1.4) = .9193$ \\
+                $(1-.9193) = .0807$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item c)
+            \begin{quote}
+                $z = \frac{9.9-10}{\sqrt{2}} = \frac{-.1}{1.414} = -.0707$ \\
+                $\phi(-.0707) = .4718$
+                $z = \frac{7.67-10}{\sqrt{2}} = \frac{-2.33}{1.414} = -1.648$
+                $\phi(-1.648) = .05$ \\
+                $.4718 - .05 = .4218$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item d)
+            \begin{quote}
+                $z = \frac{(13.22-10)}{\sqrt{2}} = \frac{3.22}{1.414} = 2.276$ \\
+                $\phi(2.276) = .9883$ \\
+                $z = \frac{(10.88-10)}{\sqrt{2}} = \frac{.88}{1.414} = .622$ \\
+                $\phi(6.22) = .7334$ \\
+                $.9883-.7334=.2549$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item e)
+            \begin{quote}
+                $z = \frac{(13-10)}{\sqrt{2}} = \frac{3}{1.414} = 2.12$ \\
+                $\phi(2.12) = .9830$
+                $z = \frac{(7-10)}{\sqrt{2}} = \frac{-3}{1.414} = -2.12$ \\
+                $.983 - .017 = .966$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item f)
+            \begin{quote}
+                $\phi(z) = .81$\\
+                $z = \frac{x-10}{\sqrt{2}} ==> .877 = \frac{x-10}{1.414}$ \\
+                $x-10 = .877*1.414 = 1.24$ \\
+                $x = 10+1.24 = 11.24$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item g)
+            \begin{quote}
+                $\phi(z) = .96; z = 1.751$ \\
+                $z = \frac{x-10}{\sqrt{2}} ==> 1.751 = \frac{x-10}{1.414}$ \\
+                $x-10 = 1.751*1.414 = 2.465$ \\
+                $x = 10 + 2.475 = 12.48$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item h)
+            \begin{quote}
+                $\frac{1-.37}{2} = .315$ \\
+                $1-.315 = .685$ \\
+                $\phi(z) = .685 => z = .485$ \\
+                $z = \frac{x}{\sqrt{2}}$ \\
+                $.485 = \frac{x}{1.414}$ \\ 
+                $.485*1.414 = .685$
+            \end{quote}
+        \end{itemize}
+    \item 5.1.4 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $z = \frac{0-(-7)}{\sqrt{14}} = \frac{7}{3.742} = 1.87$ \\
+                $\phi(1.87) = .9693$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $z = \frac{-10-(-7)}{\sqrt{14}} = \frac{-3}{3.742} = -.801$ \\
+                $\phi(-.801) = .2119$ \\
+                $1-.2119 = .7881$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item c)
+            \begin{quote}
+                $z = \frac{-15-(-7)}{\sqrt{14}} = \frac{-8}{3.742} = -2.138$ \\
+                $\phi(-2.138) = .0163$ \\
+                $z = \frac{-1-(-7)}{\sqrt{14}} = \frac{6}{3.742} = 1.603$ \\
+                $\phi(1.603) = .9458$ \\
+                $.9458-.0163 = .9295$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item d)
+            \begin{quote}
+                $z = \frac{-5-(-7)}{\sqrt{14}} = \frac{2}{3.742} = .525$ \\
+                $\phi(.535) = .7047$ \\
+                $z = \frac{2-(-7)}{\sqrt{14}} = \frac{9}{3.742} = 2.405$ \\
+                $\phi(2.405) = .9919$ \\
+                $.9919-.7047 = .2872$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item e)
+            \begin{quote}
+                $z = \frac{1-(-7)}{\sqrt{14}} = \frac{8}{3.742} = 2.138$ \\
+                $\phi(2.138) = .9837$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item f)
+            \begin{quote}
+                $\phi(z) = .75 => .675$ \\
+                $z = \frac{x-(-7)}{\sqrt{14}} => .675 = \frac{x + 7}{3.742}$ \\
+                $x = 7 = .675*3.742 = 2.526$ \\
+                $2.526-7 = -4.474$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item g)
+            \begin{quote}
+                $1-.27 = .73$ \\ 
+                $\phi(z) = .73 => .615$ \\
+                $z = \frac{x-(-7)}{\sqrt{14}} => .615 = \frac{x+7}{3.742}$ \\
+                $x+7 = .615*3.742 = 2.301 => x = 2.301 - 7 = -4.699$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item h)
+            \begin{quote}
+                $\frac{1+.44}{2} = .72$ \\
+                $\phi(z) = .72 => z = .583$ \\ 
+                $z = \frac{x-(-7)}{\sqrt{14}} => .583 = \frac{x+7}{3.742}$ \\
+                $x + 7 = .583*3.742 = 2.183 => 2.83 - 7 = -4.817$
+            \end{quote}
+        \end{itemize}
+    \item 5.1.9ab 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $\mu = 3; \sigma = .12$ \\
+                $z = \frac{3.2-3}{.12} = \frac{.2}{.12} = 1.667$ \\
+                $\phi(1.667) = .9525$ \\
+                $1-.9525 = .0475$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $\mu = 3; \sigma = .12$ \\
+                $z = \frac{2.7-3}{.12} = \frac{-.3}{.12} = -2.5$ \\
+                $\phi(-2.5) = .0062$
+            \end{quote}
+        \end{itemize}
+    \item 5.1.10
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $\mu = 1.03; \sigma = .014$ \\
+                $z = \frac{1-1.03}{.014} = \frac{-.3}{.014} = -2.143$ \\
+                $\phi(-2.143) = .0161$ \\
+                $1.61\%$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $\mu = 1.05; \sigma = .016$ \\
+                $z = \frac{1-1.05}{.016} = \frac{-.05}{.016} = -3.125$ \\
+                $\phi(-2.143) = .0009$ \\
+                $.09\%$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item c)
+            \begin{quote}
+                $\mu - 1 = 1.03 -1 =.03 kg$ \\
+                $\mu - 1 = 1.05 - 1 = .05 kg$
+            \end{quote}
+        \end{itemize}
+    \item 5.1.11a
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $\mu = 4.3 mm \\ \sigma = .12$ \\
+                $\phi(z) = .25 = -.674$ \\
+                $\phi(z) = .75 = .674$ \\
+                $X = \mu + z * \sigma$ \\
+                $X_{25} = 4.3+(-.674)*.12 = 4.3+.08088 = 4.2191 mm$ (lower) \\
+                $X_{75} = 4.3+.674*.12 = 4.3+.08088 = 4.3809 mm$ (upper)
+            \end{quote}
+        \end{itemize}
+    \item 5.1.12
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $\mu = .0046; \sigma^{2} = .0003098$ \\ 
+                $z = \frac{.005-.0046}{.0003098} = \frac{.0004}{.0003098} = 1.291$ \\
+                $\phi(1.291) = .9017$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $z_{1} = \frac{.005-.0046}{.0003098} = \frac{.0004}{.0003098} = 1.291$ \\
+                $z_{2} = \frac{.004-.0046}{.0003096} = \frac{-.0006}{.0003098} = -1.937$ \\
+                $\phi(1.291) = .9017$ \\
+                $\phi(-1.937) = .0264$ \\
+                $.9017-.0264 = .8753$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item c)
+            \begin{quote}
+                $\phi(.1) = -1.281$ \\
+                $z = \frac{z-\mu}{\sigma} => -1.281 = \frac{x-.0046}{.0003098}$ \\
+                $x-.0046 = -1.281*.0003098 = -.000397 => x=.0046-.000397 = .004203$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item d)
+            \begin{quote}
+                $\phi(.99) = 2.326$ \\
+                $z = \frac{x-\mu}{\sigma} => 2.326 = \frac{x-.0046}{.0003098}$ \\
+                $x-.0046 = 2.326*.0003098 = .000721 => x = .0046+.000721 = .005321$
+            \end{quote}
+        \end{itemize}
+    \item 5.1.13
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $\mu = 23.8; \sigma = 1.131$ \\
+                $z = \frac{23-23.8}{1.131} = \frac{-.8}{1.131} = -.707$ \\
+                $\phi(-.707) = .24$ \\
+                $20\%$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $z = \frac{24-23.8}{1.131} = \frac{.2}{1.131} = .177$ \\
+                $\phi(.177) = .5708$ \\
+                $1-.5708 = .4292$ \\
+                $42.92\%$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item c)
+            \begin{quote}
+                $z_1 = \frac{24.2-23.8}{1.131} = \frac{.4}{1.131} = .354$ \\
+                $z_2 = \frac{24.5 - 23.8}{1.131} = \frac{.7}{1.131} = .619$ \\
+                $\phi(.354) = .6382$ \\
+                $\phi(.619) = .7324$ \\
+                $.7324-.6382 = .0942$ \\
+                $9.42\%$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item d)
+            \begin{quote}
+                $\phi(.75) = .675$ \\
+                $X = \mu+x*\sigma = 23.8+.675*1.131 = 23.8+.7634 = 24.5634$
+            \end{quote}
+        \end{itemize}
+    \item 5.2.1ace 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                Mean: $\mu*X+Y = 3.2+(-2.1) = 1.1$ \\
+                Varience: $\sigma^{2}*X+Y = 6.5+3.5 = 10 = 3.162$ \\
+                $z = \frac{0-1.1}{3.162} = -.348$ \\
+                $\phi(-.348) = .3632$ \\
+                $1-.3632 = .6368$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item c)
+            \begin{quote}
+                Mean: $\mu = 3*3.2+5*(-2.1) = 9.6-10.5 = -.9$ \\
+                $\sigma^{2} = 3^{2}*6.5+5^{2}*3.5 = 9*6.5+25*3.5 = 58.5+97.5 = 146$ \\
+                $\sigma^{2} -> \sigma = \sqrt{146} = 12.083$ \\
+                $z = \frac{1-(-.9)}{12.083} = \frac{1.9}{12.083} = .157$ \\
+                $\phi(.157) = .5626$ \\
+                $1-.5626 = .4374$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item e)
+            \begin{quote}
+                Mean: $\mu = 3.2+6*(-2.1)+12 = 3.2-12.6+12 = 2.6$ \\
+                Variance: $\sigma^{2} = 1^{2}*6.5+6^{2}*3.5+1^{2}*7.5 = 6.5+36*3.5+7.5 = 6.5+126+7.5$ \\
+                $\sigma = \sqrt{140} = 11.832$ \\
+                $z = \frac{2-2.6}{11.832} = \frac{-.6}{11.832} = -.051$ \\
+                $z = \frac{-2-2.6}{11.832} = \frac{-4.6}{11.832} = -.389$ \\
+                $\phi(-.389) = .3483$ \\
+                $1-(.4802-.3483) = 1-.1219 = .8681$
+            \end{quote}
+        \end{itemize}
+    \item 5.2.4ab 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $\mu_{combined} = \mu*X_{1} + \mu*X_{2} = 4.3+4.3 = 8.6mm$ \\
+                $ \sigma^{2}_{combined} = \sigma^{2}*X_{1}+\sigma^{2}*X_{2} = .12^{2}+.12^{2} = .0144+.0144 = .0288$ \\
+                $\sigma_{combined} = \sqrt{.0288} = .1697mm$ \\
+                $N(8.6,.1697^{2}$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $\mu_{sum} = 12*4.3 = 51.6mm$ \\
+                $\mu_{average} = \frac{\mu_{sum}}{12} = \frac{51.6}{12} = 4.3 mm$ \\
+                $\sigma^{2}_{sum} = 12*.12^{2} = 12*.0144 = .1728$ \\
+                $\sigma^{2}_{average} = \frac{\sigma^{2}sum}{12^{2}} = \frac{.1728}{144} = .0012$ \\
+                $\sigma average = \sqrt{.0012} = .0346mm$ \\
+                $N(4.3,.0346^{2}$
+            \end{quote}
+        \end{itemize}
+    \item 5.2.5 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $L = X_{1}+X_{2}+Y_{1}+Y_{2}+Y_{3}$ \\
+                Mean: $\mu *L = 2*37+3*24 = 74+72 = 146mm$ \\
+                Variance: $\sigma^{2} L = 2*.49+3*.09 = .98+.27 = 1.25$ \\
+                $\sigma L = \sqrt{1.25} = 1.118mm$ \\
+                $L - N(146, 1.118^{2}$ \\
+                $z_{1} = \frac{144-146}{1.118} = \frac{-2}{1.118} = -1.789$ \\
+                $z_{2} = \frac{147-146}{1.118} = \frac{1}{1.118} = .894$ \\
+                $\phi(-1.789) = .0369$ \\
+                $\phi(.894) = .8144$ \\
+                $.8144-.0369 = .7775$ \\
+                $77.75\%$
+            \end{quote}
+        \end{itemize}
+    \item 5.2.8 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $Thickness = X_{1}+X_{2}+X_{3}$ \\
+                Mean: $\mu T 3*3 = 9mm$ \\
+                Variance = $\sigma^{2} T = 3*.12^{2} = 3*.0144 = .0432$ \\
+                $\sigma T = \sqrt{.0432} = .2078 mm$ \\
+                $(9, .2078^{2})$ \\
+                $z = \frac{9.5-9}{.2078} = \frac{.5}{.2078} = 2.406$ \\
+                $\phi(2.406) = .992$ \\
+                $1-.992 = .008$ \\
+                $.8\%$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $Thickness = \frac{X_{1}+X_{2}+...+X_{7}}{7}$ \\
+                Mean: $\mu_{thickness} = 3mm$
+                Variance: $\sigma^{2}X = \frac{.12^{2}}{7} = \frac{.0144}{7} = .002057$ \\
+                $\sigma = \sqrt{.002057} = .04534 mm$ \\
+                $N(3, .04524^{2}$ \\
+                $z = \frac{3.1 - 3}{.04524} = \frac{.1}{.04534} = 2.206$ \\
+                $\phi(2.206) = .9863$ \\
+                $98.63\%$
+            \end{quote}
+        \end{itemize}
+    \item 5.2.9 
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                $N(22*1.03, 22*.014^{2}) = N(22.66, 4.312*10^{-3})$ \\
+                Mean: $\mu = 22*1.03 = 22.66$ \\
+                Variance: $\sigma^{2} = 22*.014^{2} = 22*.000196 = .004312$ \\
+                $\sigma = \sqrt{.004312} = .06565$ \\
+                $N(22.66, 4.312*10^{-3})$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $z = .675$ \\
+                $z = \frac{x - \mu}{\sigma} => .675 = \frac{x - 22.66}{.06565}$ \\
+                $x-22.66 = .675*.06565 = .0443$ \\
+                $x = 22.66+.0443 = 22.7043$ \\
+                $z = -.675$ \\
+                $z = \frac{x - \mu}{\sigma} => -.675 - \frac{x-22.66}{.06565}$ \\
+                $x-22.66 = -.675*.06565 = -.0443$ \\
+                $22.66-.0443 = 22.6157$
+            \end{quote}
+        \end{itemize}
+    \item 5.2.17     
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                Mean: $\mu = 63400$ \\
+                Standard Dev: $\sigma = 2500$ \\
+                $\mu_{total} = 20*63400 = 1268000$ \\
+                $\sigma{total} = \sqrt{20}*2500 = \sqrt{20}*2500 = 4.472*2500 = 11180$
+            \end{quote}
+        \end{itemize}
+        \begin{itemize}
+            \item b)
+            \begin{quote}
+                $\mu_{average} = \frac{\sigma_{sum}}{\sqrt{30}} = \frac{2500}{\sqrt{30}} = \frac{2500}{5.477} = 456.44$
+            \end{quote}
+        \end{itemize}
+    \item 5.2.19
+        \begin{itemize}
+            \item a)
+            \begin{quote}
+                Total Return: $T = A+B$ \\
+                Mean: $\mu T = \mu A + \mu B = 30000+45000 = 75000$ \\
+                Variance: $\sigma^{2}T = \sigma^{2}A+\sigma^{2}B = 4000^{2}+3000^{2} = 16000000+9000000 = 25000000$ \\
+                $\sigma T = \sqrt{25000000} = 5000$ \\
+                $N(75000, 5000^{2})$ \\
+                $z = \frac{85000-75000}{5000} = \frac{10000}{5000} = 2$ \\
+                $\phi(2) = .9772$ \\
+                $1-.9772 = .0228$
+            \end{quote}
+        \end{itemize}
+\end{enumerate}
+\end{document}
